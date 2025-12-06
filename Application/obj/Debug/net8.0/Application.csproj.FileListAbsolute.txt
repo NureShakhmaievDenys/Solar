@@ -1,0 +1,15 @@
+E:\Lerning\Програми\Web\SolarMonitor\Application\bin\Debug\net8.0\Application.deps.json
+E:\Lerning\Програми\Web\SolarMonitor\Application\bin\Debug\net8.0\Application.dll
+E:\Lerning\Програми\Web\SolarMonitor\Application\bin\Debug\net8.0\Application.pdb
+E:\Lerning\Програми\Web\SolarMonitor\Application\bin\Debug\net8.0\Core.dll
+E:\Lerning\Програми\Web\SolarMonitor\Application\bin\Debug\net8.0\Core.pdb
+E:\Lerning\Програми\Web\SolarMonitor\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+E:\Lerning\Програми\Web\SolarMonitor\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Lerning\Програми\Web\SolarMonitor\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+E:\Lerning\Програми\Web\SolarMonitor\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+E:\Lerning\Програми\Web\SolarMonitor\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+E:\Lerning\Програми\Web\SolarMonitor\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+E:\Lerning\Програми\Web\SolarMonitor\Application\obj\Debug\net8.0\Application.dll
+E:\Lerning\Програми\Web\SolarMonitor\Application\obj\Debug\net8.0\refint\Application.dll
+E:\Lerning\Програми\Web\SolarMonitor\Application\obj\Debug\net8.0\Application.pdb
+E:\Lerning\Програми\Web\SolarMonitor\Application\obj\Debug\net8.0\ref\Application.dll
