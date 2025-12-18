@@ -1,12 +1,13 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
+using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
 namespace Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate_StringConfig : Migration
+    public partial class InitialPostgres : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -15,10 +16,10 @@ namespace Infrastructure.Migrations
                 name: "Users",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    PasswordHash = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false)
+                    Id = table.Column<Guid>(type: "uuid", nullable: false),
+                    Email = table.Column<string>(type: "text", nullable: false),
+                    PasswordHash = table.Column<string>(type: "text", nullable: false),
+                    CreatedAt = table.Column<DateTime>(type: "timestamp with time zone", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -29,11 +30,11 @@ namespace Infrastructure.Migrations
                 name: "Notifications",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Message = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    IsRead = table.Column<bool>(type: "bit", nullable: false),
-                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    UserId = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
+                    Id = table.Column<Guid>(type: "uuid", nullable: false),
+                    Message = table.Column<string>(type: "text", nullable: false),
+                    IsRead = table.Column<bool>(type: "boolean", nullable: false),
+                    CreatedAt = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    UserId = table.Column<Guid>(type: "uuid", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -50,10 +51,10 @@ namespace Infrastructure.Migrations
                 name: "Sites",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Location = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    UserId = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
+                    Id = table.Column<Guid>(type: "uuid", nullable: false),
+                    Name = table.Column<string>(type: "text", nullable: false),
+                    Location = table.Column<string>(type: "text", nullable: true),
+                    UserId = table.Column<Guid>(type: "uuid", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -70,11 +71,11 @@ namespace Infrastructure.Migrations
                 name: "Devices",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Brand = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    SiteId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Config = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    Id = table.Column<Guid>(type: "uuid", nullable: false),
+                    Name = table.Column<string>(type: "text", nullable: false),
+                    Brand = table.Column<string>(type: "text", nullable: true),
+                    SiteId = table.Column<Guid>(type: "uuid", nullable: false),
+                    Config = table.Column<string>(type: "text", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -92,14 +93,14 @@ namespace Infrastructure.Migrations
                 columns: table => new
                 {
                     Id = table.Column<long>(type: "bigint", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Timestamp = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    DeviceId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    GenerationWatts = table.Column<int>(type: "int", nullable: false),
-                    ConsumptionWatts = table.Column<int>(type: "int", nullable: false),
-                    GridImportWatts = table.Column<int>(type: "int", nullable: false),
-                    GridExportWatts = table.Column<int>(type: "int", nullable: false),
-                    BatteryPercent = table.Column<int>(type: "int", nullable: true)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    Timestamp = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    DeviceId = table.Column<Guid>(type: "uuid", nullable: false),
+                    GenerationWatts = table.Column<int>(type: "integer", nullable: false),
+                    ConsumptionWatts = table.Column<int>(type: "integer", nullable: false),
+                    GridImportWatts = table.Column<int>(type: "integer", nullable: false),
+                    GridExportWatts = table.Column<int>(type: "integer", nullable: false),
+                    BatteryPercent = table.Column<int>(type: "integer", nullable: true)
                 },
                 constraints: table =>
                 {

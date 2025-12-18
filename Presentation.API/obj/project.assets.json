@@ -1681,7 +1681,8 @@
         "dependencies": {
           "Application": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.21",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.21"
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.21",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.11"
         },
         "compile": {
           "bin/placeholder/Infrastructure.dll": {}

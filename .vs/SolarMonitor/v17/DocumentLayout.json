@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{54EE1F67-37C3-429A-B170-800A45A5EA57}|Infrastructure\\Infrastructure.csproj|e:\\lerning\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\web\\solarmonitor\\solar\\infrastructure\\migrations\\20251218154903_initialpostgres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54EE1F67-37C3-429A-B170-800A45A5EA57}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20251218154903_initialpostgres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8A892273-2246-4566-83EF-EA327464A11C}|Presentation.API\\Presentation.API.csproj|e:\\lerning\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\web\\solarmonitor\\solar\\presentation.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A892273-2246-4566-83EF-EA327464A11C}|Presentation.API\\Presentation.API.csproj|solutionrelative:presentation.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -188,7 +192,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -208,7 +212,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "20251218154903_InitialPostgres.cs",
+              "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Infrastructure\\Migrations\\20251218154903_InitialPostgres.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20251218154903_InitialPostgres.cs",
+              "ToolTip": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Infrastructure\\Migrations\\20251218154903_InitialPostgres.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20251218154903_InitialPostgres.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T15:49:04.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "DashboardService.cs",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Application\\Services\\DashboardService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\DashboardService.cs",
@@ -221,7 +238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Presentation.API\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "Presentation.API\\Controllers\\DashboardController.cs",
@@ -234,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Infrastructure.Worker\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Infrastructure.Worker\\appsettings.Development.json",
@@ -247,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Presentation.API.http",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Presentation.API\\Presentation.API.http",
               "RelativeDocumentMoniker": "Presentation.API\\Presentation.API.http",
@@ -260,20 +277,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Presentation.API\\Program.cs",
               "RelativeDocumentMoniker": "Presentation.API\\Program.cs",
               "ToolTip": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Presentation.API\\Program.cs",
               "RelativeToolTip": "Presentation.API\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAmwBoAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAuwBoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-09T15:51:34.065Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AuthController.cs",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Presentation.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Presentation.API\\Controllers\\AuthController.cs",
@@ -286,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "UserService.cs",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Application\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\UserService.cs",
@@ -299,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AuthService.cs",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Application\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\AuthService.cs",
@@ -312,7 +329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "NotificationService.cs",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Application\\Services\\NotificationService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\NotificationService.cs",
@@ -325,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "OfflineDetectionService.cs",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Application\\Services\\OfflineDetectionService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\OfflineDetectionService.cs",
@@ -338,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "SitesController.cs",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Presentation.API\\Controllers\\SitesController.cs",
               "RelativeDocumentMoniker": "Presentation.API\\Controllers\\SitesController.cs",
@@ -351,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "SiteService.cs",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Application\\Services\\SiteService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\SiteService.cs",
@@ -364,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Worker.cs",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Infrastructure.Worker\\Worker.cs",
               "RelativeDocumentMoniker": "Infrastructure.Worker\\Worker.cs",
@@ -377,33 +394,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Infrastructure\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\AppDbContext.cs",
               "ToolTip": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Infrastructure\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Infrastructure\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA2wCkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwCkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-09T15:42:01.212Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Device.cs",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Core\\Entities\\Device.cs",
               "RelativeDocumentMoniker": "Core\\Entities\\Device.cs",
               "ToolTip": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Core\\Entities\\Device.cs",
               "RelativeToolTip": "Core\\Entities\\Device.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAIBJwBYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAIBZwBYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-09T15:27:51.237Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "NotificationsController.cs",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Presentation.API\\Controllers\\NotificationsController.cs",
               "RelativeDocumentMoniker": "Presentation.API\\Controllers\\NotificationsController.cs",
@@ -416,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "dbo.Devices.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SolarMonitorDb/True/SqlTable/dbo.Devices.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SolarMonitorDb/True/SqlTable/dbo.Devices.sql",
@@ -425,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "dbo.Sites.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SolarMonitorDb/True/SqlTable/dbo.Sites.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SolarMonitorDb/True/SqlTable/dbo.Sites.sql",
@@ -434,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "UsersController.cs",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Presentation.API\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Presentation.API\\Controllers\\UsersController.cs",
@@ -447,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "UpdatePasswordRequestDto.cs",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Application\\DTOs\\User\\UpdatePasswordRequestDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\User\\UpdatePasswordRequestDto.cs",
@@ -460,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "RegisterRequestDto.cs",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Application\\DTOs\\Auth\\RegisterRequestDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\Auth\\RegisterRequestDto.cs",
@@ -473,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "LoginRequestDto.cs",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Application\\DTOs\\Auth\\LoginRequestDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\Auth\\LoginRequestDto.cs",
@@ -486,7 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "UpdateDeviceRequestDto.cs",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Application\\DTOs\\Devices\\UpdateDeviceRequestDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\Devices\\UpdateDeviceRequestDto.cs",
@@ -499,7 +516,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "UpdateSiteRequestDto.cs",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Application\\DTOs\\Sites\\UpdateSiteRequestDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\Sites\\UpdateSiteRequestDto.cs",
@@ -512,7 +529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "DeviceDto.cs",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Application\\DTOs\\Devices\\DeviceDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\Devices\\DeviceDto.cs",
@@ -525,7 +542,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "CreateDeviceRequestDto.cs",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Application\\DTOs\\Devices\\CreateDeviceRequestDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\Devices\\CreateDeviceRequestDto.cs",
@@ -538,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Infrastructure.Worker\\Program.cs",
               "RelativeDocumentMoniker": "Infrastructure.Worker\\Program.cs",
@@ -551,7 +568,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "User.cs",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Core\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Core\\Entities\\User.cs",
@@ -564,7 +581,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Presentation.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Presentation.API\\appsettings.Development.json",
@@ -577,7 +594,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "TelemetryController.cs",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Presentation.API\\Controllers\\TelemetryController.cs",
               "RelativeDocumentMoniker": "Presentation.API\\Controllers\\TelemetryController.cs",
@@ -590,7 +607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "NotificationDto.cs",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Application\\DTOs\\Notifications\\NotificationDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\Notifications\\NotificationDto.cs",
@@ -603,7 +620,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "TelemetryIngestDto.cs",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Application\\DTOs\\Telemetry\\TelemetryIngestDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\Telemetry\\TelemetryIngestDto.cs",
@@ -616,7 +633,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "RealtimeDashboardDto.cs",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Application\\DTOs\\Dashboard\\RealtimeDashboardDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\Dashboard\\RealtimeDashboardDto.cs",
@@ -629,7 +646,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "IApplicationDbContext.cs",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Application\\Interfaces\\IApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IApplicationDbContext.cs",
@@ -642,7 +659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "TelemetryService.cs",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Application\\Services\\TelemetryService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\TelemetryService.cs",
@@ -655,7 +672,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "SiteDto.cs",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Application\\DTOs\\Sites\\SiteDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\Sites\\SiteDto.cs",
@@ -668,7 +685,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "CreateSiteRequestDto.cs",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Application\\DTOs\\Sites\\CreateSiteRequestDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\Sites\\CreateSiteRequestDto.cs",
@@ -681,7 +698,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "Infrastructure.csproj",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Infrastructure\\Infrastructure.csproj",
               "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
@@ -694,7 +711,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "Application.csproj",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Application\\Application.csproj",
               "RelativeDocumentMoniker": "Application\\Application.csproj",
@@ -707,7 +724,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "Presentation.API.csproj",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Presentation.API\\Presentation.API.csproj",
               "RelativeDocumentMoniker": "Presentation.API\\Presentation.API.csproj",
@@ -720,7 +737,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "Core.csproj",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Core\\Core.csproj",
               "RelativeDocumentMoniker": "Core\\Core.csproj",
@@ -733,7 +750,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Presentation.API\\appsettings.json",
               "RelativeDocumentMoniker": "Presentation.API\\appsettings.json",
@@ -746,7 +763,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "Notification.cs",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Core\\Entities\\Notification.cs",
               "RelativeDocumentMoniker": "Core\\Entities\\Notification.cs",
@@ -759,7 +776,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "TelemetryData.cs",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Core\\Entities\\TelemetryData.cs",
               "RelativeDocumentMoniker": "Core\\Entities\\TelemetryData.cs",
@@ -772,7 +789,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "Site.cs",
               "DocumentMoniker": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Web\\SolarMonitor\\Solar\\Core\\Entities\\Site.cs",
               "RelativeDocumentMoniker": "Core\\Entities\\Site.cs",
