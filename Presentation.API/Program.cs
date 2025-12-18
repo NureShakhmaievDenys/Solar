@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.OpenApi.Models;
+
 namespace Presentation.API
 {
     public class Program
@@ -17,11 +18,13 @@ namespace Presentation.API
             var builder = WebApplication.CreateBuilder(args);
 
             // 1. Отримуємо ConnectionString
+            // DigitalOcean сам підставить сюди правильний рядок з Environment Variables
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
             // 2. Налаштування DbContext
+            // ВАЖЛИВО: Змінили UseSqlServer на UseNpgsql (для PostgreSQL)
             builder.Services.AddDbContext<AppDbContext>(options =>
-                options.UseSqlServer(connectionString)
+                options.UseNpgsql(connectionString)
             );
 
             // 3. Реєстрація інтерфейсу та сервісів
@@ -50,20 +53,21 @@ namespace Presentation.API
                 });
 
                 options.AddSecurityRequirement(new OpenApiSecurityRequirement
-    {
-        {
-            new OpenApiSecurityScheme
-            {
-                Reference = new OpenApiReference
                 {
-                    Type = ReferenceType.SecurityScheme,
-                    Id = "Bearer" 
-                }
-            },
-            new string[] {}
-        }
-    });
+                    {
+                        new OpenApiSecurityScheme
+                        {
+                            Reference = new OpenApiReference
+                            {
+                                Type = ReferenceType.SecurityScheme,
+                                Id = "Bearer"
+                            }
+                        },
+                        new string[] {}
+                    }
+                });
             });
+
             // 5. Налаштування JWT Автентифікації
             builder.Services.AddAuthentication(options =>
             {
@@ -91,16 +95,27 @@ namespace Presentation.API
 
             var app = builder.Build();
 
-            // Налаштування конвеєра HTTP-запитів
-            if (app.Environment.IsDevelopment())
+            // === ВАЖЛИВО: АВТОМАТИЧНА МІГРАЦІЯ БАЗИ ===
+            // Це створює таблиці в порожній базі DigitalOcean при запуску
+            using (var scope = app.Services.CreateScope())
             {
-                app.UseSwagger();
-                app.UseSwaggerUI();
+                var services = scope.ServiceProvider;
+                try
+                {
+                    var context = services.GetRequiredService<AppDbContext>();
+                    context.Database.Migrate(); // Застосовує всі міграції
+                }
+                catch (Exception ex)
+                {
+                    var logger = services.GetRequiredService<ILogger<Program>>();
+                    logger.LogError(ex, "Сталася помилка під час міграції бази даних.");
+                }
             }
+            app.UseSwagger();
+            app.UseSwaggerUI();
 
             app.UseHttpsRedirection();
 
-            // 7. Вмикаємо Автентифікацію та Авторизацію
             app.UseAuthentication();
             app.UseAuthorization();
 

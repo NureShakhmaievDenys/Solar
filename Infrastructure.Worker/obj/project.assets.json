@@ -3760,23 +3760,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Users\\avema\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\F\\Solar\\Infrastructure.Worker\\Infrastructure.Worker.csproj",
+      "projectUniqueName": "E:\\Lerning\\Програми\\Web\\SolarMonitor\\Solar\\Infrastructure.Worker\\Infrastructure.Worker.csproj",
       "projectName": "Infrastructure.Worker",
-      "projectPath": "D:\\F\\Solar\\Infrastructure.Worker\\Infrastructure.Worker.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\F\\Solar\\Infrastructure.Worker\\obj\\",
+      "projectPath": "E:\\Lerning\\Програми\\Web\\SolarMonitor\\Solar\\Infrastructure.Worker\\Infrastructure.Worker.csproj",
+      "packagesPath": "C:\\Users\\avema\\.nuget\\packages\\",
+      "outputPath": "E:\\Lerning\\Програми\\Web\\SolarMonitor\\Solar\\Infrastructure.Worker\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\avema\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3792,11 +3792,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\F\\Solar\\Application\\Application.csproj": {
-              "projectPath": "D:\\F\\Solar\\Application\\Application.csproj"
+            "E:\\Lerning\\Програми\\Web\\SolarMonitor\\Solar\\Application\\Application.csproj": {
+              "projectPath": "E:\\Lerning\\Програми\\Web\\SolarMonitor\\Solar\\Application\\Application.csproj"
             },
-            "D:\\F\\Solar\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "D:\\F\\Solar\\Infrastructure\\Infrastructure.csproj"
+            "E:\\Lerning\\Програми\\Web\\SolarMonitor\\Solar\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "E:\\Lerning\\Програми\\Web\\SolarMonitor\\Solar\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -3811,7 +3811,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -3838,7 +3838,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
