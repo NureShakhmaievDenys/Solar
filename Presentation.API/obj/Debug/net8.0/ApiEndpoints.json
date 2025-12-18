@@ -175,6 +175,22 @@
   },
   {
     "ContainingType": "Presentation.API.Controllers.SitesController",
+    "Method": "GetDevicesForSite",
+    "RelativePath": "api/Sites/{siteId}/devices",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "siteId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Presentation.API.Controllers.SitesController",
     "Method": "UpdateDevice",
     "RelativePath": "api/Sites/{siteId}/devices/{deviceId}",
     "HttpMethod": "PUT",
@@ -218,6 +234,47 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Presentation.API.Controllers.StatisticsController",
+    "Method": "GetDailyStats",
+    "RelativePath": "api/Statistics/{siteId}/daily",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "siteId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "start",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "end",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "tariff",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Presentation.API.Controllers.StatisticsController",
+    "Method": "GetAdminOverview",
+    "RelativePath": "api/Statistics/admin/overview",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

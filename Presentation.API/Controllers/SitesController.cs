@@ -103,8 +103,19 @@ namespace Presentation.API.Controllers
             }
             return Ok(updatedDevice);
         }
+        [HttpGet("{siteId:guid}/devices")]
+        public async Task<IActionResult> GetDevicesForSite([FromRoute] Guid siteId)
+        {
+            var userId = GetUserIdFromToken();
+            var devices = await _siteService.GetDevicesForSiteAsync(siteId, userId);
 
-        // DELETE /api/sites/{siteId}/devices/{deviceId}
+            if (devices == null)
+            {
+                return NotFound(new { message = "Об'єкт не знайдено або ви не маєте до нього доступу." });
+            }
+
+            return Ok(devices);
+        }
         [HttpDelete("{siteId:guid}/devices/{deviceId:guid}")]
         public async Task<IActionResult> DeleteDevice([FromRoute] Guid siteId, [FromRoute] Guid deviceId)
         {

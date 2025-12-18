@@ -102,7 +102,26 @@ namespace Application.Services
 
             return new DeviceDto { Id = device.Id, Name = device.Name, Brand = device.Brand, SiteId = device.SiteId };
         }
+        public async Task<List<DeviceDto>> GetDevicesForSiteAsync(Guid siteId, Guid userId)
+        {
+            var siteExists = await _context.Sites.AnyAsync(s => s.Id == siteId && s.UserId == userId);
 
+            if (!siteExists)
+            {
+                return null; 
+            }
+
+            return await _context.Devices
+                .Where(d => d.SiteId == siteId)
+                .Select(d => new DeviceDto
+                {
+                    Id = d.Id,
+                    Name = d.Name,
+                    Brand = d.Brand,
+                    SiteId = d.SiteId
+                })
+                .ToListAsync();
+        }
         public async Task<bool> DeleteDeviceAsync(Guid siteId, Guid deviceId, Guid userId)
         {
             var device = await _context.Devices

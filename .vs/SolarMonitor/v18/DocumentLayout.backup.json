@@ -1,0 +1,835 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\F\\Solar\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|d:\\f\\solar\\application\\services\\offlinedetectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|solutionrelative:application\\services\\offlinedetectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|d:\\f\\solar\\application\\services\\statisticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|solutionrelative:application\\services\\statisticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A892273-2246-4566-83EF-EA327464A11C}|Presentation.API\\Presentation.API.csproj|d:\\f\\solar\\presentation.api\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A892273-2246-4566-83EF-EA327464A11C}|Presentation.API\\Presentation.API.csproj|solutionrelative:presentation.api\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A892273-2246-4566-83EF-EA327464A11C}|Presentation.API\\Presentation.API.csproj|d:\\f\\solar\\presentation.api\\controllers\\sitescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A892273-2246-4566-83EF-EA327464A11C}|Presentation.API\\Presentation.API.csproj|solutionrelative:presentation.api\\controllers\\sitescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|d:\\f\\solar\\application\\dtos\\statistics\\statisticsresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|solutionrelative:application\\dtos\\statistics\\statisticsresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|d:\\f\\solar\\application\\dtos\\statistics\\dailystatisticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|solutionrelative:application\\dtos\\statistics\\dailystatisticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|d:\\f\\solar\\application\\dtos\\statistics\\systemoverviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|solutionrelative:application\\dtos\\statistics\\systemoverviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|d:\\f\\solar\\application\\services\\siteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|solutionrelative:application\\services\\siteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A892273-2246-4566-83EF-EA327464A11C}|Presentation.API\\Presentation.API.csproj|d:\\f\\solar\\presentation.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A892273-2246-4566-83EF-EA327464A11C}|Presentation.API\\Presentation.API.csproj|solutionrelative:presentation.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A892273-2246-4566-83EF-EA327464A11C}|Presentation.API\\Presentation.API.csproj|d:\\f\\solar\\presentation.api\\controllers\\telemetrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A892273-2246-4566-83EF-EA327464A11C}|Presentation.API\\Presentation.API.csproj|solutionrelative:presentation.api\\controllers\\telemetrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A892273-2246-4566-83EF-EA327464A11C}|Presentation.API\\Presentation.API.csproj|d:\\f\\solar\\presentation.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A892273-2246-4566-83EF-EA327464A11C}|Presentation.API\\Presentation.API.csproj|solutionrelative:presentation.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A892273-2246-4566-83EF-EA327464A11C}|Presentation.API\\Presentation.API.csproj|d:\\f\\solar\\presentation.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8A892273-2246-4566-83EF-EA327464A11C}|Presentation.API\\Presentation.API.csproj|solutionrelative:presentation.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A892273-2246-4566-83EF-EA327464A11C}|Presentation.API\\Presentation.API.csproj|d:\\f\\solar\\presentation.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8A892273-2246-4566-83EF-EA327464A11C}|Presentation.API\\Presentation.API.csproj|solutionrelative:presentation.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|d:\\f\\solar\\application\\services\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|solutionrelative:application\\services\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A892273-2246-4566-83EF-EA327464A11C}|Presentation.API\\Presentation.API.csproj|d:\\f\\solar\\presentation.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A892273-2246-4566-83EF-EA327464A11C}|Presentation.API\\Presentation.API.csproj|solutionrelative:presentation.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|d:\\f\\solar\\application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|solutionrelative:application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A892273-2246-4566-83EF-EA327464A11C}|Presentation.API\\Presentation.API.csproj|d:\\f\\solar\\presentation.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A892273-2246-4566-83EF-EA327464A11C}|Presentation.API\\Presentation.API.csproj|solutionrelative:presentation.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|d:\\f\\solar\\application\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|solutionrelative:application\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5EA0F92-5B27-4824-8192-1CEA3EAD2261}|Infrastructure.Worker\\Infrastructure.Worker.csproj|d:\\f\\solar\\infrastructure.worker\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D5EA0F92-5B27-4824-8192-1CEA3EAD2261}|Infrastructure.Worker\\Infrastructure.Worker.csproj|solutionrelative:infrastructure.worker\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|d:\\f\\solar\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|solutionrelative:application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5EA0F92-5B27-4824-8192-1CEA3EAD2261}|Infrastructure.Worker\\Infrastructure.Worker.csproj|d:\\f\\solar\\infrastructure.worker\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5EA0F92-5B27-4824-8192-1CEA3EAD2261}|Infrastructure.Worker\\Infrastructure.Worker.csproj|solutionrelative:infrastructure.worker\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54EE1F67-37C3-429A-B170-800A45A5EA57}|Infrastructure\\Infrastructure.csproj|d:\\f\\solar\\infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54EE1F67-37C3-429A-B170-800A45A5EA57}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{402E5EE4-7BAB-430D-923E-F8493855F2BA}|Core\\Core.csproj|d:\\f\\solar\\core\\entities\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{402E5EE4-7BAB-430D-923E-F8493855F2BA}|Core\\Core.csproj|solutionrelative:core\\entities\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A892273-2246-4566-83EF-EA327464A11C}|Presentation.API\\Presentation.API.csproj|d:\\f\\solar\\presentation.api\\controllers\\notificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A892273-2246-4566-83EF-EA327464A11C}|Presentation.API\\Presentation.API.csproj|solutionrelative:presentation.api\\controllers\\notificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SolarMonitorDb/True/SqlTable/dbo.Devices.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SolarMonitorDb/True/SqlTable/dbo.Sites.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|d:\\f\\solar\\application\\dtos\\user\\updatepasswordrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|solutionrelative:application\\dtos\\user\\updatepasswordrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|d:\\f\\solar\\application\\dtos\\auth\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|solutionrelative:application\\dtos\\auth\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|d:\\f\\solar\\application\\dtos\\auth\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|solutionrelative:application\\dtos\\auth\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|d:\\f\\solar\\application\\dtos\\devices\\updatedevicerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|solutionrelative:application\\dtos\\devices\\updatedevicerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|d:\\f\\solar\\application\\dtos\\sites\\updatesiterequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|solutionrelative:application\\dtos\\sites\\updatesiterequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|d:\\f\\solar\\application\\dtos\\devices\\devicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|solutionrelative:application\\dtos\\devices\\devicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|d:\\f\\solar\\application\\dtos\\devices\\createdevicerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|solutionrelative:application\\dtos\\devices\\createdevicerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{402E5EE4-7BAB-430D-923E-F8493855F2BA}|Core\\Core.csproj|d:\\f\\solar\\core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{402E5EE4-7BAB-430D-923E-F8493855F2BA}|Core\\Core.csproj|solutionrelative:core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5EA0F92-5B27-4824-8192-1CEA3EAD2261}|Infrastructure.Worker\\Infrastructure.Worker.csproj|d:\\f\\solar\\infrastructure.worker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5EA0F92-5B27-4824-8192-1CEA3EAD2261}|Infrastructure.Worker\\Infrastructure.Worker.csproj|solutionrelative:infrastructure.worker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A892273-2246-4566-83EF-EA327464A11C}|Presentation.API\\Presentation.API.csproj|d:\\f\\solar\\presentation.api\\presentation.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{8A892273-2246-4566-83EF-EA327464A11C}|Presentation.API\\Presentation.API.csproj|solutionrelative:presentation.api\\presentation.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|d:\\f\\solar\\application\\dtos\\notifications\\notificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|solutionrelative:application\\dtos\\notifications\\notificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|d:\\f\\solar\\application\\dtos\\telemetry\\telemetryingestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|solutionrelative:application\\dtos\\telemetry\\telemetryingestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|d:\\f\\solar\\application\\dtos\\dashboard\\realtimedashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|solutionrelative:application\\dtos\\dashboard\\realtimedashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|d:\\f\\solar\\application\\services\\telemetryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|solutionrelative:application\\services\\telemetryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|d:\\f\\solar\\application\\interfaces\\iapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|d:\\f\\solar\\application\\dtos\\sites\\sitedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|solutionrelative:application\\dtos\\sites\\sitedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|d:\\f\\solar\\application\\dtos\\sites\\createsiterequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|solutionrelative:application\\dtos\\sites\\createsiterequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54EE1F67-37C3-429A-B170-800A45A5EA57}|Infrastructure\\Infrastructure.csproj|d:\\f\\solar\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{54EE1F67-37C3-429A-B170-800A45A5EA57}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{402E5EE4-7BAB-430D-923E-F8493855F2BA}|Core\\Core.csproj|d:\\f\\solar\\core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{402E5EE4-7BAB-430D-923E-F8493855F2BA}|Core\\Core.csproj|solutionrelative:core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A892273-2246-4566-83EF-EA327464A11C}|Presentation.API\\Presentation.API.csproj|d:\\f\\solar\\presentation.api\\presentation.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8A892273-2246-4566-83EF-EA327464A11C}|Presentation.API\\Presentation.API.csproj|solutionrelative:presentation.api\\presentation.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|d:\\f\\solar\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F06F07DA-86D2-436E-B84B-70071062A62E}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{402E5EE4-7BAB-430D-923E-F8493855F2BA}|Core\\Core.csproj|d:\\f\\solar\\core\\entities\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{402E5EE4-7BAB-430D-923E-F8493855F2BA}|Core\\Core.csproj|solutionrelative:core\\entities\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{402E5EE4-7BAB-430D-923E-F8493855F2BA}|Core\\Core.csproj|d:\\f\\solar\\core\\entities\\telemetrydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{402E5EE4-7BAB-430D-923E-F8493855F2BA}|Core\\Core.csproj|solutionrelative:core\\entities\\telemetrydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{402E5EE4-7BAB-430D-923E-F8493855F2BA}|Core\\Core.csproj|d:\\f\\solar\\core\\entities\\site.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{402E5EE4-7BAB-430D-923E-F8493855F2BA}|Core\\Core.csproj|solutionrelative:core\\entities\\site.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StatisticsResponseDto.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Application\\DTOs\\Statistics\\StatisticsResponseDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Statistics\\StatisticsResponseDto.cs",
+              "ToolTip": "D:\\F\\Solar\\Application\\DTOs\\Statistics\\StatisticsResponseDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\Statistics\\StatisticsResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T09:16:32.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StatisticsService.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Application\\Services\\StatisticsService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\StatisticsService.cs",
+              "ToolTip": "D:\\F\\Solar\\Application\\Services\\StatisticsService.cs",
+              "RelativeToolTip": "Application\\Services\\StatisticsService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAACMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T10:54:51.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SitesController.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Presentation.API\\Controllers\\SitesController.cs",
+              "RelativeDocumentMoniker": "Presentation.API\\Controllers\\SitesController.cs",
+              "ToolTip": "D:\\F\\Solar\\Presentation.API\\Controllers\\SitesController.cs",
+              "RelativeToolTip": "Presentation.API\\Controllers\\SitesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:38:36.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DailyStatisticsDto.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Application\\DTOs\\Statistics\\DailyStatisticsDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Statistics\\DailyStatisticsDto.cs",
+              "ToolTip": "D:\\F\\Solar\\Application\\DTOs\\Statistics\\DailyStatisticsDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\Statistics\\DailyStatisticsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T17:20:26.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StatisticsController.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Presentation.API\\Controllers\\StatisticsController.cs",
+              "RelativeDocumentMoniker": "Presentation.API\\Controllers\\StatisticsController.cs",
+              "ToolTip": "D:\\F\\Solar\\Presentation.API\\Controllers\\StatisticsController.cs",
+              "RelativeToolTip": "Presentation.API\\Controllers\\StatisticsController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T17:26:23.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OfflineDetectionService.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Application\\Services\\OfflineDetectionService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\OfflineDetectionService.cs",
+              "ToolTip": "D:\\F\\Solar\\Application\\Services\\OfflineDetectionService.cs",
+              "RelativeToolTip": "Application\\Services\\OfflineDetectionService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwFAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:38:36.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SystemOverviewDto.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Application\\DTOs\\Statistics\\SystemOverviewDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Statistics\\SystemOverviewDto.cs",
+              "ToolTip": "D:\\F\\Solar\\Application\\DTOs\\Statistics\\SystemOverviewDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\Statistics\\SystemOverviewDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T17:21:09.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SiteService.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Application\\Services\\SiteService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\SiteService.cs",
+              "ToolTip": "D:\\F\\Solar\\Application\\Services\\SiteService.cs",
+              "RelativeToolTip": "Application\\Services\\SiteService.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAcwG4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:38:36.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Presentation.API\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation.API\\Program.cs",
+              "ToolTip": "D:\\F\\Solar\\Presentation.API\\Program.cs",
+              "RelativeToolTip": "Presentation.API\\Program.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAiwCYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:38:36.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TelemetryController.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Presentation.API\\Controllers\\TelemetryController.cs",
+              "RelativeDocumentMoniker": "Presentation.API\\Controllers\\TelemetryController.cs",
+              "ToolTip": "D:\\F\\Solar\\Presentation.API\\Controllers\\TelemetryController.cs",
+              "RelativeToolTip": "Presentation.API\\Controllers\\TelemetryController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:38:36.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Presentation.API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Presentation.API\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\F\\Solar\\Presentation.API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Presentation.API\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA3wA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:38:36.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\F\\Solar\\Presentation.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Presentation.API\\appsettings.Development.json",
+              "ToolTip": "D:\\F\\Solar\\Presentation.API\\appsettings.Development.json",
+              "RelativeToolTip": "Presentation.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-06T16:38:36.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\F\\Solar\\Presentation.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Presentation.API\\appsettings.json",
+              "ToolTip": "D:\\F\\Solar\\Presentation.API\\appsettings.json",
+              "RelativeToolTip": "Presentation.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-06T16:38:37.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DashboardService.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Application\\Services\\DashboardService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\DashboardService.cs",
+              "ToolTip": "D:\\F\\Solar\\Application\\Services\\DashboardService.cs",
+              "RelativeToolTip": "Application\\Services\\DashboardService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:38:36.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Application\\Services\\NotificationService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\NotificationService.cs",
+              "ToolTip": "D:\\F\\Solar\\Application\\Services\\NotificationService.cs",
+              "RelativeToolTip": "Application\\Services\\NotificationService.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAA3wDQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:38:36.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\AuthService.cs",
+              "ToolTip": "D:\\F\\Solar\\Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "Application\\Services\\AuthService.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAvwFoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:38:36.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\UserService.cs",
+              "ToolTip": "D:\\F\\Solar\\Application\\Services\\UserService.cs",
+              "RelativeToolTip": "Application\\Services\\UserService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwB0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:38:36.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Presentation.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Presentation.API\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\F\\Solar\\Presentation.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Presentation.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwDEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:38:36.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Presentation.API\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Presentation.API\\Controllers\\DashboardController.cs",
+              "ToolTip": "D:\\F\\Solar\\Presentation.API\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Presentation.API\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:38:36.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\F\\Solar\\Infrastructure.Worker\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Infrastructure.Worker\\appsettings.Development.json",
+              "ToolTip": "D:\\F\\Solar\\Infrastructure.Worker\\appsettings.Development.json",
+              "RelativeToolTip": "Infrastructure.Worker\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-06T16:38:36.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Infrastructure.Worker\\Worker.cs",
+              "RelativeDocumentMoniker": "Infrastructure.Worker\\Worker.cs",
+              "ToolTip": "D:\\F\\Solar\\Infrastructure.Worker\\Worker.cs",
+              "RelativeToolTip": "Infrastructure.Worker\\Worker.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB8AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:38:36.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\F\\Solar\\Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwCkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:38:36.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Device.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Core\\Entities\\Device.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Device.cs",
+              "ToolTip": "D:\\F\\Solar\\Core\\Entities\\Device.cs",
+              "RelativeToolTip": "Core\\Entities\\Device.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:38:36.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "NotificationsController.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Presentation.API\\Controllers\\NotificationsController.cs",
+              "RelativeDocumentMoniker": "Presentation.API\\Controllers\\NotificationsController.cs",
+              "ToolTip": "D:\\F\\Solar\\Presentation.API\\Controllers\\NotificationsController.cs",
+              "RelativeToolTip": "Presentation.API\\Controllers\\NotificationsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:38:36.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "dbo.Devices.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SolarMonitorDb/True/SqlTable/dbo.Devices.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SolarMonitorDb/True/SqlTable/dbo.Devices.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-10T06:36:30.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "dbo.Sites.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SolarMonitorDb/True/SqlTable/dbo.Sites.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SolarMonitorDb/True/SqlTable/dbo.Sites.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-10T06:36:26.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UpdatePasswordRequestDto.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Application\\DTOs\\User\\UpdatePasswordRequestDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\User\\UpdatePasswordRequestDto.cs",
+              "ToolTip": "D:\\F\\Solar\\Application\\DTOs\\User\\UpdatePasswordRequestDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\User\\UpdatePasswordRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:38:36.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "RegisterRequestDto.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Application\\DTOs\\Auth\\RegisterRequestDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Auth\\RegisterRequestDto.cs",
+              "ToolTip": "D:\\F\\Solar\\Application\\DTOs\\Auth\\RegisterRequestDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\Auth\\RegisterRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:38:36.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Application\\DTOs\\Auth\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Auth\\LoginRequestDto.cs",
+              "ToolTip": "D:\\F\\Solar\\Application\\DTOs\\Auth\\LoginRequestDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\Auth\\LoginRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:38:36.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UpdateDeviceRequestDto.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Application\\DTOs\\Devices\\UpdateDeviceRequestDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Devices\\UpdateDeviceRequestDto.cs",
+              "ToolTip": "D:\\F\\Solar\\Application\\DTOs\\Devices\\UpdateDeviceRequestDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\Devices\\UpdateDeviceRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:38:36.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UpdateSiteRequestDto.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Application\\DTOs\\Sites\\UpdateSiteRequestDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Sites\\UpdateSiteRequestDto.cs",
+              "ToolTip": "D:\\F\\Solar\\Application\\DTOs\\Sites\\UpdateSiteRequestDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\Sites\\UpdateSiteRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:38:36.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DeviceDto.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Application\\DTOs\\Devices\\DeviceDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Devices\\DeviceDto.cs",
+              "ToolTip": "D:\\F\\Solar\\Application\\DTOs\\Devices\\DeviceDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\Devices\\DeviceDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:38:36.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CreateDeviceRequestDto.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Application\\DTOs\\Devices\\CreateDeviceRequestDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Devices\\CreateDeviceRequestDto.cs",
+              "ToolTip": "D:\\F\\Solar\\Application\\DTOs\\Devices\\CreateDeviceRequestDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\Devices\\CreateDeviceRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:38:36.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Infrastructure.Worker\\Program.cs",
+              "RelativeDocumentMoniker": "Infrastructure.Worker\\Program.cs",
+              "ToolTip": "D:\\F\\Solar\\Infrastructure.Worker\\Program.cs",
+              "RelativeToolTip": "Infrastructure.Worker\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:38:36.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Core\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\User.cs",
+              "ToolTip": "D:\\F\\Solar\\Core\\Entities\\User.cs",
+              "RelativeToolTip": "Core\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:38:36.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Presentation.API.http",
+              "DocumentMoniker": "D:\\F\\Solar\\Presentation.API\\Presentation.API.http",
+              "RelativeDocumentMoniker": "Presentation.API\\Presentation.API.http",
+              "ToolTip": "D:\\F\\Solar\\Presentation.API\\Presentation.API.http",
+              "RelativeToolTip": "Presentation.API\\Presentation.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-12-06T16:38:36.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "NotificationDto.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Application\\DTOs\\Notifications\\NotificationDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Notifications\\NotificationDto.cs",
+              "ToolTip": "D:\\F\\Solar\\Application\\DTOs\\Notifications\\NotificationDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\Notifications\\NotificationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:38:36.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "TelemetryIngestDto.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Application\\DTOs\\Telemetry\\TelemetryIngestDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Telemetry\\TelemetryIngestDto.cs",
+              "ToolTip": "D:\\F\\Solar\\Application\\DTOs\\Telemetry\\TelemetryIngestDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\Telemetry\\TelemetryIngestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:38:36.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "RealtimeDashboardDto.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Application\\DTOs\\Dashboard\\RealtimeDashboardDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Dashboard\\RealtimeDashboardDto.cs",
+              "ToolTip": "D:\\F\\Solar\\Application\\DTOs\\Dashboard\\RealtimeDashboardDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\Dashboard\\RealtimeDashboardDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:38:36.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Application\\Interfaces\\IApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IApplicationDbContext.cs",
+              "ToolTip": "D:\\F\\Solar\\Application\\Interfaces\\IApplicationDbContext.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IApplicationDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:38:36.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "TelemetryService.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Application\\Services\\TelemetryService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\TelemetryService.cs",
+              "ToolTip": "D:\\F\\Solar\\Application\\Services\\TelemetryService.cs",
+              "RelativeToolTip": "Application\\Services\\TelemetryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:38:36.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "SiteDto.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Application\\DTOs\\Sites\\SiteDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Sites\\SiteDto.cs",
+              "ToolTip": "D:\\F\\Solar\\Application\\DTOs\\Sites\\SiteDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\Sites\\SiteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:38:36.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CreateSiteRequestDto.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Application\\DTOs\\Sites\\CreateSiteRequestDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Sites\\CreateSiteRequestDto.cs",
+              "ToolTip": "D:\\F\\Solar\\Application\\DTOs\\Sites\\CreateSiteRequestDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\Sites\\CreateSiteRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:38:36.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Infrastructure.csproj",
+              "DocumentMoniker": "D:\\F\\Solar\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "D:\\F\\Solar\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-06T16:38:37.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Application.csproj",
+              "DocumentMoniker": "D:\\F\\Solar\\Application\\Application.csproj",
+              "RelativeDocumentMoniker": "Application\\Application.csproj",
+              "ToolTip": "D:\\F\\Solar\\Application\\Application.csproj",
+              "RelativeToolTip": "Application\\Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-06T16:38:37.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Presentation.API.csproj",
+              "DocumentMoniker": "D:\\F\\Solar\\Presentation.API\\Presentation.API.csproj",
+              "RelativeDocumentMoniker": "Presentation.API\\Presentation.API.csproj",
+              "ToolTip": "D:\\F\\Solar\\Presentation.API\\Presentation.API.csproj",
+              "RelativeToolTip": "Presentation.API\\Presentation.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-06T16:38:37.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Core.csproj",
+              "DocumentMoniker": "D:\\F\\Solar\\Core\\Core.csproj",
+              "RelativeDocumentMoniker": "Core\\Core.csproj",
+              "ToolTip": "D:\\F\\Solar\\Core\\Core.csproj",
+              "RelativeToolTip": "Core\\Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-06T16:38:37.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Core\\Entities\\Notification.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Notification.cs",
+              "ToolTip": "D:\\F\\Solar\\Core\\Entities\\Notification.cs",
+              "RelativeToolTip": "Core\\Entities\\Notification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:38:37.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "TelemetryData.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Core\\Entities\\TelemetryData.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\TelemetryData.cs",
+              "ToolTip": "D:\\F\\Solar\\Core\\Entities\\TelemetryData.cs",
+              "RelativeToolTip": "Core\\Entities\\TelemetryData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:38:37.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Site.cs",
+              "DocumentMoniker": "D:\\F\\Solar\\Core\\Entities\\Site.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Site.cs",
+              "ToolTip": "D:\\F\\Solar\\Core\\Entities\\Site.cs",
+              "RelativeToolTip": "Core\\Entities\\Site.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:38:37.258Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -34,6 +34,7 @@ namespace Presentation.API
             builder.Services.AddScoped<DashboardService>();
             builder.Services.AddScoped<NotificationService>();
             builder.Services.AddScoped<UserService>();
+            builder.Services.AddScoped<StatisticsService>();
             builder.Services.AddScoped<TelemetryService>();
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
