@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.OpenApi.Models;
+using Npgsql; 
 
 namespace Presentation.API
 {
@@ -18,16 +19,22 @@ namespace Presentation.API
             var builder = WebApplication.CreateBuilder(args);
 
             // 1. Отримуємо ConnectionString
-            // DigitalOcean сам підставить сюди правильний рядок з Environment Variables
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
-            // 2. Налаштування DbContext
-            // ВАЖЛИВО: Змінили UseSqlServer на UseNpgsql (для PostgreSQL)
+            // === ИСПРАВЛЕНИЕ ДЛЯ DIGITALOCEAN ===
+            // Если строка пришла в формате URL (как дает DO), переделываем её в нормальный вид
+            if (!string.IsNullOrEmpty(connectionString) && connectionString.Contains("://"))
+            {
+                connectionString = ConvertUrlConnectionString(connectionString);
+            }
+            // =====================================
+
+            // 2. Налаштування DbContext (PostgreSQL)
             builder.Services.AddDbContext<AppDbContext>(options =>
                 options.UseNpgsql(connectionString)
             );
 
-            // 3. Реєстрація інтерфейсу та сервісів
+            // 3. Реєстрація сервісів
             builder.Services.AddScoped<IApplicationDbContext>(sp =>
                 sp.GetRequiredService<AppDbContext>());
 
@@ -46,7 +53,7 @@ namespace Presentation.API
                 options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
                 {
                     Name = "Authorization",
-                    Description = "Введіть 'Bearer' [пробіл] і ваш токен.\n\nПриклад: 'Bearer 12345abcdef'",
+                    Description = "Введіть 'Bearer' [пробіл] і ваш токен",
                     In = ParameterLocation.Header,
                     Type = SecuritySchemeType.ApiKey,
                     Scheme = "Bearer"
@@ -68,7 +75,12 @@ namespace Presentation.API
                 });
             });
 
-            // 5. Налаштування JWT Автентифікації
+            // 5. JWT
+            // ВАЖНО: Убедитесь, что добавили переменные JwtSettings__Key в DigitalOcean!
+            var jwtKey = builder.Configuration["JwtSettings:Key"];
+            var jwtIssuer = builder.Configuration["JwtSettings:Issuer"];
+            var jwtAudience = builder.Configuration["JwtSettings:Audience"];
+
             builder.Services.AddAuthentication(options =>
             {
                 options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -82,45 +94,66 @@ namespace Presentation.API
                     ValidateAudience = true,
                     ValidateLifetime = true,
                     ValidateIssuerSigningKey = true,
-                    ValidIssuer = builder.Configuration["JwtSettings:Issuer"],
-                    ValidAudience = builder.Configuration["JwtSettings:Audience"],
+                    ValidIssuer = jwtIssuer,
+                    ValidAudience = jwtAudience,
+                    // Проверка на случай, если ключ не задан (чтобы не упало с ошибкой)
                     IssuerSigningKey = new SymmetricSecurityKey(
-                        Encoding.UTF8.GetBytes(builder.Configuration["JwtSettings:Key"]!)
+                        Encoding.UTF8.GetBytes(jwtKey ?? "TemporaryKeyForMigrationAndDevBuild123!")
                     )
                 };
             });
 
-            // 6. Додаємо Авторизацію
             builder.Services.AddAuthorization();
 
             var app = builder.Build();
 
-            // === ВАЖЛИВО: АВТОМАТИЧНА МІГРАЦІЯ БАЗИ ===
-            // Це створює таблиці в порожній базі DigitalOcean при запуску
+            // === АВТО-МИГРАЦИЯ ===
             using (var scope = app.Services.CreateScope())
             {
                 var services = scope.ServiceProvider;
                 try
                 {
                     var context = services.GetRequiredService<AppDbContext>();
-                    context.Database.Migrate(); // Застосовує всі міграції
+                    context.Database.Migrate();
                 }
                 catch (Exception ex)
                 {
                     var logger = services.GetRequiredService<ILogger<Program>>();
-                    logger.LogError(ex, "Сталася помилка під час міграції бази даних.");
+                    logger.LogError(ex, "Помилка міграції бази даних.");
                 }
             }
+
+            // Включаем Swagger всегда (и в Production)
             app.UseSwagger();
             app.UseSwaggerUI();
 
             app.UseHttpsRedirection();
-
             app.UseAuthentication();
             app.UseAuthorization();
-
             app.MapControllers();
             app.Run();
+        }
+
+        // === ВСПОМОГАТЕЛЬНЫЙ МЕТОД ДЛЯ КОНВЕРТАЦИИ URL ===
+        private static string ConvertUrlConnectionString(string url)
+        {
+            if (!url.Contains("//")) return url;
+
+            var uri = new Uri(url);
+            var userInfo = uri.UserInfo.Split(':');
+
+            var builder = new NpgsqlConnectionStringBuilder
+            {
+                Host = uri.Host,
+                Port = uri.Port,
+                Username = userInfo[0],
+                Password = userInfo[1],
+                Database = uri.LocalPath.TrimStart('/'),
+                SslMode = SslMode.Require, // DigitalOcean требует SSL
+                TrustServerCertificate = true // Доверяем сертификату DO
+            };
+
+            return builder.ToString();
         }
     }
 }
