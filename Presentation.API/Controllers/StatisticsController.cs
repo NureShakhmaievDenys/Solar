@@ -53,5 +53,23 @@ namespace Presentation.API.Controllers
 
             return Ok(stats);
         }
+        [HttpGet("device/{deviceId:guid}")]
+        public async Task<IActionResult> GetDeviceStats(
+    [FromRoute] Guid deviceId,
+    [FromQuery] DateTime start,
+    [FromQuery] DateTime end,
+    [FromQuery] double tariff = 4.32)
+        {
+            var userId = GetUserIdFromToken();
+
+            var stats = await _statsService.GetDeviceStatisticsAsync(deviceId, userId, start, end, tariff);
+
+            if (stats == null)
+            {
+                return NotFound(new { message = "Устройство не найдено или у вас нет к нему доступа." });
+            }
+
+            return Ok(stats);
+        }
     }
 }

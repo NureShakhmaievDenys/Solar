@@ -16,8 +16,40 @@ namespace Application.Services
         {
             _context = context;
         }
+        public async Task<List<DeviceStatsDto>> GetDeviceStatisticsAsync(Guid deviceId, Guid userId, DateTime start, DateTime end, double tariff)
+        {
+            var device = await _context.Devices
+                .Include(d => d.Site)
+                .FirstOrDefaultAsync(d => d.Id == deviceId && d.Site.UserId == userId);
 
-        // --- 1. АДМІНІСТРУВАННЯ ---
+            if (device == null) return null;
+            var rawData = await _context.TelemetryData
+                .Where(t => t.DeviceId == deviceId && t.Timestamp >= start && t.Timestamp <= end)
+                .Select(t => new {
+                    t.Timestamp,
+                    t.GenerationWatts
+                })
+                .ToListAsync(); 
+            var stats = rawData
+                .GroupBy(x => x.Timestamp.Date)
+                .Select(g =>
+                {
+                    double estimatedKwh = g.Sum(x => x.GenerationWatts) * 10.0 / 3600.0 / 1000.0;
+
+                    return new DeviceStatsDto
+                    {
+                        Date = g.Key,
+                        PeakPowerWatts = g.Max(x => x.GenerationWatts),
+                        AveragePowerWatts = Math.Round(g.Average(x => x.GenerationWatts), 2),
+                        EnergyKwh = Math.Round(estimatedKwh, 3),
+                        MoneySaved = Math.Round(estimatedKwh * tariff, 2)
+                    };
+                })
+                .OrderBy(x => x.Date)
+                .ToList();
+
+            return stats;
+        }
         public async Task<SystemOverviewDto> GetSystemOverviewAsync()
         {
             var yesterday = DateTime.UtcNow.AddHours(-24);
@@ -71,7 +103,6 @@ namespace Application.Services
                     selfSufficiency = genWh >= consWh ? 100 : (genWh / consWh) * 100;
                 }
 
-                // Чистий баланс (Експорт - Імпорт)
                 double exportWh = (genWh > consWh) ? (genWh - consWh) : 0;
                 double importWh = (consWh > genWh) ? (consWh - genWh) : 0;
                 double netBalance = exportWh - importWh;
@@ -87,8 +118,6 @@ namespace Application.Services
                 };
             }).ToList();
 
-            // 5. Розрахунок загальних підсумків (Totals)
-            // Якщо список порожній, повертаємо нулі
             var totals = new DailyStatisticsDto
             {
                 Date = startDate, 
@@ -97,7 +126,6 @@ namespace Application.Services
                 MoneySaved = Math.Round(dailyStatsList.Sum(x => x.MoneySaved), 2),
                 NetGridBalanceWh = Math.Round(dailyStatsList.Sum(x => x.NetGridBalanceWh), 2),
                 
-                // Середній відсоток автономності за період
                 SelfSufficiencyPercent = dailyStatsList.Any() 
                     ? Math.Round(dailyStatsList.Average(x => x.SelfSufficiencyPercent), 1) 
                     : 0
@@ -111,4 +139,3 @@ namespace Application.Services
         }
     }
 }
-//2025-12-04T00:00:00Z
