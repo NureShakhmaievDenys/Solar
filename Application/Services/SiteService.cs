@@ -104,24 +104,32 @@ namespace Application.Services
         }
         public async Task<List<DeviceDto>> GetDevicesForSiteAsync(Guid siteId, Guid userId)
         {
-            var siteExists = await _context.Sites.AnyAsync(s => s.Id == siteId && s.UserId == userId);
+            var site = await _context.Sites.FirstOrDefaultAsync(s => s.Id == siteId && s.UserId == userId);
+            if (site == null) return null;
 
-            if (!siteExists)
-            {
-                return null; 
-            }
-
-            return await _context.Devices
+            var devices = await _context.Devices
                 .Where(d => d.SiteId == siteId)
                 .Select(d => new DeviceDto
                 {
                     Id = d.Id,
                     Name = d.Name,
                     Brand = d.Brand,
-                    SiteId = d.SiteId
+                    SiteId = d.SiteId,
+
+                    CurrentPowerWatts = d.TelemetryData
+                        .OrderByDescending(t => t.Timestamp)
+                        .Select(t => t.GenerationWatts)
+                        .FirstOrDefault(), 
+                    IsOnline = d.TelemetryData
+                        .OrderByDescending(t => t.Timestamp)
+                        .Select(t => t.Timestamp)
+                        .FirstOrDefault() > DateTime.UtcNow.AddMinutes(-5)
                 })
                 .ToListAsync();
+
+            return devices;
         }
+
         public async Task<bool> DeleteDeviceAsync(Guid siteId, Guid deviceId, Guid userId)
         {
             var device = await _context.Devices

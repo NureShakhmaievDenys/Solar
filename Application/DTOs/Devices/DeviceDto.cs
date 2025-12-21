@@ -12,5 +12,8 @@ namespace Application.DTOs.Devices
         public string Name { get; set; } = string.Empty;
         public string? Brand { get; set; }
         public Guid SiteId { get; set; }
+        public int? CurrentPowerWatts { get; set; }
+
+        public bool IsOnline { get; set; }
     }
 }
